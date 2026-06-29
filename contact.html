@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Competition Construction</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-logo" aria-hidden="true"></div>
+    <header>
+        <a href="index.html" class="logo">
+    <span class="competition">Competition</span>
+    <span class="construction">Construction</span>
+</a>
+
+        <div class="menu-toggle">☰</div>
+
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <h1>Contact Us</h1>
+        <p>
+            Ready to start your next project? Reach out for a free consultation and estimate.
+        </p>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>Request a Quote</h3>
+                <p>Tell us about your project and we will follow up with the details you need.</p>
+                <form class="contact-form" id="contactForm" data-endpoint="https://formspree.io/f/REPLACE_WITH_YOUR_ID">
+                    <input type="hidden" name="_subject" value="New contact form submission">
+                    <input type="hidden" name="_replyto" id="_replyto">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" placeholder="Describe your project"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <p id="contactFeedback" role="status" aria-live="polite" style="margin-top:12px"></p>
+                </form>
+            </div>
+
+            <div class="contact-card">
+                <h3>Get in Touch</h3>
+                <p>Phone: 334-662-2659</p>
+                <p>Email: CompetitionConstruction@gmail.com</p>
+                <p>Serving residential clients with dependable construction services.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© <span data-year></span> Competition Construction. Built for lasting value.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
